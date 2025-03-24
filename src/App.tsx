@@ -342,16 +342,16 @@ const ErleahPricingCalculator = () => {
             {paramSection === 'usage' && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Adoption Rate</label>
-                  <input 
-                    type="number" 
-                    min="0.01" 
-                    max="1" 
-                    step="0.05" 
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Adoption Rate </label>
+                  <input
+                    type="number"
+                    min="0.01"
+                    max="1"
+                    step="0.05"
                     value={params.adoptionRate}
                     onChange={(e) => updateParam('adoptionRate', parseFloat(e.target.value))}
                     className="w-full p-2 border rounded"
-                  />
+                   />
                 </div>
                 
                 <div>
