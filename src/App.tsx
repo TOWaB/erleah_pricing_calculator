@@ -337,7 +337,6 @@ const ErleahPricingCalculator = () => {
               Pricing
             </button>
           </div>
-          
           <div className="bg-gray-50 p-4 rounded-lg mb-4">
             {paramSection === 'usage' && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
